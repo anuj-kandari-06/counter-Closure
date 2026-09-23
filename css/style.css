@@ -1,0 +1,60 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ body {
+     font-family: Arial, sans-serif;
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #f2f2f2;
+ }
+
+ .counter-box {
+     width: 350px;
+     padding: 40px;
+     text-align: center;
+     background: white;
+     border-radius: 12px;
+     /* box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15); */
+ }
+
+ h1 {
+     margin-bottom: 25px;
+ }
+
+ #count {
+     font-size: 60px;
+     margin-bottom: 30px;
+ }
+
+ button {
+     padding: 10px 20px;
+     margin: 5px;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     font-size: 16px;
+ }
+
+ #decrease {
+     background: #dc3545;
+     color: white;
+ }
+
+ #reset {
+     background: #6c757d;
+     color: white;
+ }
+
+ #increase {
+     background: #198754;
+     color: white;
+ }
+
+ button:hover {
+     opacity: 0.85;
+ }
